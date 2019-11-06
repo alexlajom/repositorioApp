@@ -10,7 +10,8 @@ namespace Calculadora
     {
         public static int suma(int sumando1, int sumando2)
         {
-            return sumando1 + sumando2; 
+            return sumando1 - sumando2; 
+            //Aqui le cambie el signo de + a menos para ver si detecta esta parte el github 
         }
         public static int resta(int restando1, int restando2)
         {
@@ -28,5 +29,7 @@ namespace Calculadora
             return mult1 * mult2;
         }
         //Comentario para comprobar la segunda version
+
+        
     }
 }
