@@ -13,7 +13,7 @@ namespace PruebasUnitarias
             //Datos de prueba
             const int restando1 = 100;
             const int restando2 = 50;
-            const int esperado = 50;
+            const int esperado = 2000;
 
             var actual = matematicas.resta(restando1, restando2);
 
